@@ -9,7 +9,8 @@ def ocr_core(img):
     text=pytesseract.image_to_string(img)
     return text
 
-img=cv.imread(r'C:\Users\Acer\Desktop\opencv_calculator_test\test4.png')
+img=cv.imread('https://github.com/ShlokIngle/Team-5/blob/main/test1.png')
+#change img path according to requirement
 
 # get_grayscale image
 def get_grayscale(image):
